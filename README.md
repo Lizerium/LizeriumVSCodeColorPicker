@@ -20,6 +20,12 @@ npm install
 npm run vscode:prepublish
 ```
 
+> Сборка пакета
+```sh
+npm install -g vsce
+vsce package
+```
+
 ## 💦 Отладка 💦
 
 1. Переходим в скрипт [extension.ts](src/extension.ts)

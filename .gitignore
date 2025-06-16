@@ -1,5 +1,6 @@
 # Node.js dependencies
 node_modules/
+Builds/
 
 # VS Code extension build outputs
 .vscode-test/
