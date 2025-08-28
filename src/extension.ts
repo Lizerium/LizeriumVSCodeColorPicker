@@ -1,7 +1,9 @@
-/*
+﻿/*
  * Author: Nikolay Dvurechensky
- * Last Updated: 16 June 2025
- * Version: 1.0.0
+ * Site: https://sites.google.com/view/dvurechensky
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 28 августа 2025 07:08:30
+ * Version: 1.0.7
  */
 
 import * as vscode from 'vscode';
@@ -34,7 +36,7 @@ export function activate(context: vscode.ExtensionContext) {
                     return colors;
                 },
                 provideColorPresentations(color: vscode.Color, context: { document: vscode.TextDocument; range: vscode.Range }) {
-                    // Преобразуем цвет обратно в "color = R, G, B"
+                    // РџСЂРµРѕР±СЂР°Р·СѓРµРј С†РІРµС‚ РѕР±СЂР°С‚РЅРѕ РІ "color = R, G, B"
                     const r = Math.round(color.red * 255);
                     const g = Math.round(color.green * 255);
                     const b = Math.round(color.blue * 255);
