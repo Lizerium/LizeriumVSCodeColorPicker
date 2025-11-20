@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://sites.google.com/view/dvurechensky
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 19 ноября 2025 08:16:55
- * Version: 1.0.90
+ * Last Updated: 20 ноября 2025 12:23:04
+ * Version: 1.0.91
  */
 
 import * as vscode from 'vscode';
