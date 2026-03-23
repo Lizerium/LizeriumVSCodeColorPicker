@@ -16,7 +16,7 @@ $headerRegex = [regex]::new($headerPattern, 'Singleline')
 $newHeader = @"
 /*
  * Author: $author
- * Site: https://sites.google.com/view/dvurechensky
+ * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
  * Last Updated: $date
  * Version: $version
