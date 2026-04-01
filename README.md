@@ -3,6 +3,13 @@
 <h1 align="center"> Color Picker INI (VSCode Extension) 😈</h1>
 <p align="center"> ⭐ Freelancer <b>Lizerium</b> ⭐ </p>
 
+> [!NOTE]
+> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+>
+> * [`Lizerium.Tools.Structs`](https://github.com/Lizerium/Lizerium.Tools.Structs)
+>
+> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
+
 # ✨ Оглавление
 
 - [✨ Оглавление](#-оглавление)
