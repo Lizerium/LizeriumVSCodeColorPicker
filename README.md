@@ -3,66 +3,100 @@
 <h1 align="center"> Color Picker INI (VSCode Extension) 😈</h1>
 <p align="center"> ⭐ Freelancer <b>Lizerium</b> ⭐ </p>
 
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
+
+---
+
 > [!NOTE]
-> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+> This project is part of the **Lizerium** ecosystem and belongs to:
 >
-> * [`Lizerium.Tools.Structs`](https://github.com/Lizerium/Lizerium.Tools.Structs)
+> - [`Lizerium.Tools.Structs`](https://github.com/Lizerium/Lizerium.Tools.Structs)
 >
-> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
+> If you are looking for related engineering and utility tools, start there.
 
-# ✨ Оглавление
+# ✨ Table of Contents
 
-- [✨ Оглавление](#-оглавление)
-  - [💦 Описание 💦](#-описание-)
-  - [💦 Сборка 💦](#-сборка-)
-  - [💦 Отладка 💦](#-отладка-)
-    - [💦 Пример 💦](#-пример-)
+- [✨ Table of Contents](#-table-of-contents)
+  - [💦 Description 💦](#-description-)
+  - [💦 Build 💦](#-build-)
+  - [💦 Debug 💦](#-debug-)
+    - [💦 Example 💦](#-example-)
 
-## 💦 Описание 💦
+---
 
-- Работает на [VSCode](https://code.visualstudio.com/)
-- Простое расширение позволяет в конструкциях формата `color = 255, 255, 255` подсвечивать цвет и добавляет панель выбора цвета слева от каждой подобной строки
+## 💦 Description 💦
 
-* P.s ✌️ Мне пригодилось для файлов `rich_fonts` и во всех файлах игры, где часто такие конструкции использовались
+- Works with [VS Code](https://code.visualstudio.com/)
+- This simple extension highlights color values in lines like:
 
-## 💦 Сборка 💦
+```
 
-> Установка всех зависимостей в `Terminal` из корня проекта
+color = 255, 255, 255
+
+```
+
+- It also adds a color picker panel to the left of each matching line
+
+_P.S ✌️ I personally used it for `rich_fonts` files and other game files where this format appears frequently_
+
+---
+
+## 💦 Build 💦
+
+> Install all dependencies in the `Terminal` from the project root
 
 ```sh
 npm install
 ```
 
-> Сборка проекта (должна появится папка `Out` с итоговым `js` файлом плагина)
+> Build the project (an `Out` folder with compiled plugin `.js` will be created)
 
 ```sh
 npm run vscode:prepublish
 ```
 
-> Сборка пакета
+> Package the extension
 
 ```sh
 npm install -g vsce
 vsce package
 ```
 
-## 💦 Отладка 💦
+---
 
-1. Переходим в скрипт [extension.ts](src/extension.ts)
-2. Запускаем отладку Run->Start Debugging -> VS Code Extension Development
-3. Откроется чистый VS Code который мужно просто пополнить вашим тестовым файлом с конструкциями `color = 255, 255, 255` и смотреть результат показанных на примерах ниже
+## 💦 Debug 💦
 
-### 💦 Пример 💦
+1. Open the script: [extension.ts](src/extension.ts)
+2. Start debugging:
+   **Run → Start Debugging → VS Code Extension Development**
+3. A clean VS Code instance will open
+   Add a test file with lines like `color = 255, 255, 255` and observe the behavior
 
 ---
 
-_`До`_ \
+### 💦 Example 💦
+
+---
+
+_`Before`_
 ![Before](Media/Before.png)
 
 ---
 
-_`После`_ \
-![After_1](Media/Afetr_1.png) \
-![After_1](Media/After_2.png)
+_`After`_
+![After_1](Media/Afetr_1.png)
+![After_2](Media/After_2.png)
+
+---
 
 <p align="center">✨Dvurechensky✨</p>
